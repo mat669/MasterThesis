@@ -1,0 +1,61 @@
+begin states
+coord-Loc
+router-Loc
+blue_dev-Loc
+coord-noLoc
+router-noLoc
+blue_dev-noLoc
+end states
+
+begin parameters
+delta = 1
+end parameters
+
+begin initial conditions
+1 = blue_dev-noLoc
+2 = blue_dev-noLoc
+3 = blue_dev-noLoc
+4 = blue_dev-noLoc
+5 = router-noLoc
+6 = blue_dev-noLoc
+7 = router-noLoc
+8 = router-noLoc
+9 = router-noLoc
+10 = coord-noLoc
+11 = router-noLoc
+12 = blue_dev-Loc
+13 = blue_dev-noLoc
+14 = blue_dev-noLoc
+15 = blue_dev-noLoc
+16 = router-noLoc
+end initial conditions
+
+begin rules
+blue_dev-Loc =1 blue_dev-noLoc ->  blue_dev-noLoc =1 blue_dev-Loc @ delta
+blue_dev-Loc =1 router-noLoc ->  blue_dev-noLoc =1 router-Loc @ delta
+blue_dev-Loc =1 coord-noLoc ->  blue_dev-noLoc =1 coord-Loc @ delta
+router-Loc =1 blue_dev-noLoc ->  router-noLoc =1 blue_dev-Loc @ delta
+router-Loc =1 router-noLoc ->  router-noLoc =1 router-Loc @ delta
+router-Loc =1 coord-noLoc ->  router-noLoc =1 coord-Loc @ delta
+coord-Loc =1 blue_dev-noLoc ->  coord-noLoc =1 blue_dev-Loc @ delta
+coord-Loc =1 router-noLoc ->  coord-noLoc =1 router-Loc @ delta
+coord-Loc =1 coord-noLoc ->  coord-noLoc =1 coord-Loc @ delta
+end rules
+
+begin views
+coord-Loc
+router-Loc
+blue_dev-Loc
+coord-noLoc
+router-noLoc
+blue_dev-noLoc
+end views
+
+begin simOptions
+n = 1
+e = 30
+end simOptions
+
+begin somewhere property
+SOMEWHERE e=5 && (10*coord-Loc, =, 1)
+end somewhere property
