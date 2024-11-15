@@ -1,7 +1,7 @@
 
 # Language for Modelling and Analysis of Collective Dynamics
 
-This repository contains the code and models developed for my master thesis as part of the "Data Science and Economics" program. The thesis goal consists of  **developing a unifying modeling language to analyze, simulate, and monitor collective dynamics and spreading processes over Multiplex Multi-Layer Networks (MLNs). Inspired by Kappa rule-based formalism and Spatio-Temporal Reach and Escape Logic (STREL), this language aims to address standardization challenges in network science, providing a flexible, intuitive framework for diverse domains including epidemiology, sociology, and technology.** It manipulates the evolution of defined system by extensive application of Discrete-Time Markov Chains (DTMCs) and Continuous-Time Markov Chains (CTMCs).
+This repository contains the code and models developed for my master thesis as part of the "Data Science and Economics" program. The thesis goal consists of  **developing a unifying modeling language to analyze, simulate, and monitor collective dynamics and spreading processes over Multiplex Multi-Layer Networks (MLNs). Inspired by Kappa rule-based formalism and Spatio-Temporal Reach and Escape Logic (STREL), this language aims to address standardization challenges in network science, providing a flexible, intuitive framework for diverse domains including epidemiology, sociology, and technology.** It manipulates the evolution of defined system by extensive application of Discrete-Time Markov Chains (DTMCs) and Continuous-Time Markov Chains (CTMCs) to determine properties of the collective such as probability of infection and amount of infected individuals depending on patient zero.
 
 ![Alt text](images/vax_problem.jpg)
 
