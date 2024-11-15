@@ -1,0 +1,14 @@
+pandas
+matplotlib
+kappy
+IPython
+time
+uunet
+networkx
+py3plex
+functools
+seaborn
+re
+numpy
+scipy
+pprint
