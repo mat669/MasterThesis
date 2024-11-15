@@ -9,7 +9,7 @@ This repository contains the code and models developed for my master thesis as p
 
 ## Reader of the Thesis
 
-To fully understand and utilize this repository, refer to the thesis document **`ParserThesis.py`**. It contains detailed descriptions of the methodology, models, and results.
+To fully understand and utilize this repository, refer to the thesis document **`ParserThesis.py`**. It contains complentary definitions of functions of the methodology and models.
 
 ## Input Files
 
