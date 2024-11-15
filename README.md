@@ -46,4 +46,4 @@ Dependencies include:
 
 ## Author
 
-This repository was created as part of my master thesis in the "Data Science and Economics" (LM-91) program at Università degli Studi di Milano in collaboration with University of Konstanz.
+This repository was created as part of my master thesis program at Università degli Studi di Milano in collaboration with University of Konstanz.
