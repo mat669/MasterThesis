@@ -3,7 +3,7 @@
 
 This repository contains the code and models developed for my master thesis as part of the "Data Science and Economics" program. The thesis goal consists of  **developing a unifying modeling language to analyze, simulate, and monitor collective dynamics and spreading processes over Multiplex Multi-Layer Networks (MLNs). Inspired by Kappa rule-based formalism and Spatio-Temporal Reach and Escape Logic (STREL), this language aims to address standardization challenges in network science, providing a flexible, intuitive framework for diverse domains including epidemiology, sociology, and technology.** It manipulates the evolution of defined system by extensive application of Discrete-Time Markov Chains (DTMCs) and Continuous-Time Markov Chains (CTMCs).
 
-![Alt text](images/network states and reachability property.jpg)
+![Local Image](images/network states and reachability property.jpg)
 
 ## Main File
 
